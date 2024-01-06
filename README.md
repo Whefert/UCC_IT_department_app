@@ -1,2 +1,4 @@
-# UCC_IT_department_app
-Mobile application providing pertinent admissions and contact information for the UCC IT department
+# Major-Project - UCC IT Department App
+Student Name - Jefferson Daley
+Student ID - 20202583 
+Github link - https://github.com/Whefert/Major_Project

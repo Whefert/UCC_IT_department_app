@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CourseDetails">
+
+
+    <include layout="@layout/custom_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingTop="70dp"
+        android:paddingBottom="70dp"
+        android:background="@color/ucc_blue"
+        >
+
+    <TextView
+        android:id="@+id/tv_courseCodeAndName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        tools:text="Course Code and Name"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+
+        />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="3dp"
+            android:src="@drawable/separator"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tv_credits"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            tools:text="Credits: 3"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Description"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_courseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingHorizontal="50dp"
+        android:text="@string/loremIpsum"
+        android:gravity="left"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="3dp"
+        android:src="@drawable/separator"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_Prerequisites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Prerequisites:"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_prerequisite1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        tools:text="Course Code and Name"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_prerequisite2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        tools:text="Course Code and Name"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginVertical="10dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ucc_logo"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

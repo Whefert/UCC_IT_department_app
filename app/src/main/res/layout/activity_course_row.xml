@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llCourse"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/default_option_border_bg"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_courseNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="ITT203"/>
+
+        <TextView
+            android:id="@+id/tv_courseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            tools:text="ITT201 Data Communications + Networks I" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_courseDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            tools:text="Course Description: This course is aimed at providing the student with both the advanced theoretical and practical knowledge of the standards and techniques in Internetworking, Network security and introduction to Wireless Communications with particular reference to cellular networks. " />
+
+    </LinearLayout>
+
+
+</LinearLayout>
