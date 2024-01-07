@@ -1,4 +1,4 @@
-# UCC IT Department App
+# University of the Commonwealth Caribbean (UCC) IT Department App
 
 ## Description
 
